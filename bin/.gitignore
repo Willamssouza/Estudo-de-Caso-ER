@@ -1,5 +1,4 @@
-/Automato.class
-/Estado.class
-/ManipulaER.class
-/Operacao.class
-/Transicao.class
+/GLC.class
+/ManipulaGLC.class
+/Producao.class
+/TabelaPreditiva.class

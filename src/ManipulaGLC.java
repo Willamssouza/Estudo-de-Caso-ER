@@ -12,7 +12,7 @@ public class ManipulaGLC {
 		String gramatica;
 		String palavra;
 		
-		JOptionPane.showMessageDialog(null, "*****Programa reconhece somente gramáticas LL(1)*****");
+		//JOptionPane.showMessageDialog(null, "*****Programa reconhece somente gramáticas LL(1)*****");
 		try {
 			gramatica = in.readLine();
 			GLC glc = new GLC(gramatica);
