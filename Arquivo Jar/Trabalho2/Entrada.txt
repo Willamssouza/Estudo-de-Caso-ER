@@ -1,0 +1,10 @@
+S->cAa;A->cB|B; B -> bcB|E
+cbca
+ca
+cb
+cca
+ccbcbca
+a
+bb
+
+

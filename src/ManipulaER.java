@@ -39,8 +39,8 @@ public class ManipulaER {
 
 			case '(':
 				
-				// Extrair a subcadeia entre () e aplicar a função de conversão
-				// sobre ela retornando assim o autômato equivalente
+				// Extrair a subcadeia entre () e aplicar a funï¿½ï¿½o de conversï¿½o
+				// sobre ela retornando assim o autï¿½mato equivalente
 				for (int j = i ; j < expressao.length(); j++) {
 					
 					if (expressao.charAt(j) == ')') {
@@ -71,18 +71,18 @@ public class ManipulaER {
 		String expressao = "";
 		String palavra = "";
 		
-		System.out.println("Expressão Regular (Ex: (1+0).1.0* ): ");
+		//System.out.println("Expressï¿½o Regular (Ex: (1+0).1.0* ): ");
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));  
 		
 		try {
 			expressao = in.readLine();
 	
-			//Converte a expressão para um AFND com transições vazias
+			//Converte a expressï¿½o para um AFND com transiï¿½ï¿½es vazias
 			Automato automato = app.converteERparaAutomato(expressao);
 		
 			ArrayList<String> palavras = new ArrayList<String>();
 		
-			System.out.println("Digite as palavras: ");
+			//System.out.println("Digite as palavras: ");
 			palavra = in.readLine();
 			
 			while (!palavra.equals("")){
@@ -90,7 +90,7 @@ public class ManipulaER {
 				palavra = in.readLine();
 			}
 			
-			System.out.println("Resultado:");
+			//System.out.println("Resultado:");
 			for (String s : palavras){
 				System.out.println(automato.aceitaPalavra(s) ? "1" : "0");
 			}
